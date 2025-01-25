@@ -35,3 +35,22 @@ public class Main {
         scanner.close();
     }
 }
+
+
+OUTPUT:
+Enter the number of elements: 10
+Enter the numbers:
+11
+16
+201
+1
+21
+6
+18
+43
+11
+56
+List of prime numbers: [11, 43, 11]
+List of unique prime numbers: [11, 43]
+
+=== Code Execution Successful ===
