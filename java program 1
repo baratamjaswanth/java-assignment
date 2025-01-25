@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Main {
+
+    public static void ReverseArr(String[] arr) {
+        for (int left = 0, right = arr.length - 1; left < right; left++, right--) {
+            String temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+        }
+    }
+
+    public static void main(String[] args) {
+        int n = 5;
+        String[] arr = {"apple", "banana", "cherry", "date", "elderberry"};
+
+        System.err.println("original array: " + Arrays.toString(arr));
+
+        ReverseArr(arr);
+
+        System.err.println("reversed array: " + Arrays.toString(arr));
+    }
+}
