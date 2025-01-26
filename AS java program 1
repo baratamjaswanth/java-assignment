@@ -14,17 +14,10 @@ public class Main {
         int n = 5;
         String[] arr = {"apple", "banana", "cherry", "date", "elderberry"};
 
-        System.err.println("original array: " + Arrays.toString(arr));
+        System.out.println("original array: " + Arrays.toString(arr));
 
         ReverseArr(arr);
 
-        System.err.println("reversed array: " + Arrays.toString(arr));
+        System.out.println("reversed array: " + Arrays.toString(arr));
     }
 }
-
-
-OUTPUT:
-original array: [apple, banana, cherry, date, elderberry]
-reversed array: [elderberry, date, cherry, banana, apple]
-
-=== Code Execution Successful ===
